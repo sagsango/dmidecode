@@ -13,6 +13,14 @@
  *  So just to make sure this script is nothing
  *  but reading the mem file systems about syste-
  *  ms metadata and printing.
+ *
+ * NOTE:
+ *  /dev/mem device exposes the whole memeory
+ *  to the user and BIOS put the hardware info
+ *  at well defined localtion. This program just
+ *  trying to read that info from the memory.
+ *  Today kernel only allow some part of the 
+ *  memory to get exposed by /dev/mem not all.
  */
  */
 /*
