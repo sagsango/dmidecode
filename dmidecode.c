@@ -1,4 +1,9 @@
 /*
+ * XXX:
+ *  same as previous version we are reading
+ *  the metadata about hardware from /dev/mem
+ */
+/*
  * DMI decode rev 2.0
  *
  *      (C) 2000-2002 Alan Cox <alan@redhat.com>
