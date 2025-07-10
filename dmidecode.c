@@ -1,4 +1,21 @@
 /*
+ *
+ * XXX:
+ *  This version was written around 2002-2003
+ *  They just opened the /dev/mem file and 
+ *  did read the confuguration and printed on
+ *  the console. 
+ *
+ *  althogh today we dont have /dev/mem
+ *  and the confuguration is very big so have
+ *  been devided into multiple subfiles.
+ *
+ *  So just to make sure this script is nothing
+ *  but reading the mem file systems about syste-
+ *  ms metadata and printing.
+ */
+ */
+/*
  * DMI decode rev 1.8
  *
  *	(C) 2000-2002 Alan Cox <alan@redhat.com>
